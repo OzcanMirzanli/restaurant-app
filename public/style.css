@@ -85,3 +85,46 @@ article {
   font-weight: 300;
   margin-bottom: 10px;
 }
+
+@media (max-width: 800px) {
+  body {
+    padding: 2rem;
+  }
+
+  .page-header h1 {
+    font-size: 3.6rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .page-header p {
+    width: 100%;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+  #restaurant-list {
+    grid-template-columns: 1fr;
+  }
+
+  #restaurant-list article {
+    padding: 1.4rem;
+  }
+
+  #restaurant-list article h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 1.6rem;
+  }
+
+  .page-header h1 {
+    font-size: 2.8rem;
+  }
+
+  .page-header p {
+    font-size: 1.2rem;
+  }
+}
